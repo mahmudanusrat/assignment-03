@@ -1,27 +1,125 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: '#da373d',
-          }
-        }
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      .font {
+        font-family: "Manrope", sans-serif;
       }
-    }
-  </script>
-</head>
-<body>
-    <header><h1>hello</h1></header>
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="max-w-screen-2xl font">
+    <header class="max-w-6xl mx-auto">
+      <!-- <div class="navbar bg-base-100">
+        <div class="navbar-start gap-2">
+          <img src="./assets/arrow-up-right-01.png" alt="" />
+          <a class="sm:text-3xl lg:text-4xl text-[#212121] font-extrabold"
+            >Rinterio</a
+          >
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="flex gap-6 px-2 text-[#737373] text-base">
+            <li class="hover:text-[#494949] hover:font-extrabold">
+              <a>Home</a>
+            </li>
+            <li class="hover:text-[#494949] hover:font-extrabold">
+              <a>Services</a>
+            </li>
+            <li class="hover:text-[#494949] hover:font-extrabold">
+              <a>Portfolio</a>
+            </li>
+            <li class="hover:text-[#494949] hover:font-extrabold">
+              <a>Blogs</a>
+            </li>
+            <li class="hover:text-[#494949] hover:font-extrabold">
+              <a>Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-end items-center">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            >
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+            <div
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+          ><div class="bg-[#ABEF5F] font-extrabold text-xl rounded-3xl p-3 gap-2 lg:flex">
+            <a class="text-[#1C1C1C] ">Book Consult</a>
+            <img src="./assets/arrow-up-right-01 (1).png" alt="">
+        </div>
+        </div>
+          </div>
+          <div>
+            <div class="bg-[#ABEF5F] font-extrabold text-xl rounded-3xl p-3 gap-2 lg:flex">
+                <a class="text-[#1C1C1C] ">Book Consult</a>
+                <img src="./assets/arrow-up-right-01 (1).png" alt="">
+            </div>
+          </div>
+          
+        </div>
+      </div> -->
+      <div class="hero">
+        <div class="hero-content text-center">
+          <div class="max-w-5xl mx-auto justify-center items-center flex-col flex space-y-4 md:space-y-5 lg:space-y-6">
+            <img src="./assets/banner.png" alt="">
+            <h1 class="text-[#212121] font-black md:p-4 text-3xl md:text-4xl lg:text-6xl">A barn house of this design has a striking appearance</h1>
+            <p class="text-[#494949] text-xs md:text-base font-medium m-0 md:px-16 lg:px-8">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+            <button class="btn bg-[#cefd98] text-[#212121] font-bold text-xl rounded-3xl border-[#a3da37] w-full md:w-auto">View Details <img src="./assets/arrow-up-right-01.png" alt=""></button>
+          </div>
+        </div>
+      </div>    
+    </header>
+
     <main></main>
     <footer></footer>
-    
-</body>
+  </body>
 </html>
